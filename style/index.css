@@ -1,0 +1,63 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+html
+{
+    font-family: 'Montserrat', sans-serif;
+}
+
+body
+{
+    background-color: #D0D0D0;
+    color: #005C5E;
+}
+
+.top-box
+{
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 1rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+.bottom-box
+{
+    display: flex;
+    margin-top: 28rem;
+    margin-left: 1.5rem;
+}
+
+.bottom-box a
+{
+    margin-left: 1.5rem;
+}
+
+#github_logo
+{
+    background-image: url('./assets/github.png');
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+.center-box
+{
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 5rem;
+    margin-left: 2rem;
+    margin-right: 20rem;
+}
+
+.form-box
+{
+   display: flex;
+   align-items: center;
+   width: 2rem;
+   height: 2rem;
+}
