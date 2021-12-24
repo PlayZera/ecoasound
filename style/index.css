@@ -13,6 +13,10 @@ body
 {
     background-color: #D0D0D0;
     color: #005C5E;
+
+    background-image: url(/assets/wave_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .top-box
@@ -28,7 +32,7 @@ body
 .bottom-box
 {
     display: flex;
-    margin-top: 28rem;
+    margin-top: 25rem;
     margin-left: 1.5rem;
 }
 
@@ -49,7 +53,7 @@ body
     display: flex;
     justify-content: space-between;
 
-    margin-top: 5rem;
+    margin-top: 0.5rem;
     margin-left: 2rem;
     margin-right: 20rem;
 }
@@ -60,4 +64,24 @@ body
    align-items: center;
    width: 2rem;
    height: 2rem;
+}
+
+#botao_mp3
+{
+    border-color: #005C5E;
+    
+}
+
+#Logo
+{
+    height: 4rem;
+    width: 4rem;
+
+    margin-left: 8rem;
+}
+
+audio
+{
+    margin-left: 5rem;
+    margin-top: 10rem;
 }

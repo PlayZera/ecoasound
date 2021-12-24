@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style/index.css">
+    <link rel="shortcut icon" href="./assets/wave.png" type="image/x-icon">
 
     <title>ECOA Sound</title>
 </head>
@@ -16,17 +17,19 @@
         <h1>Bem vindo a ECOA Sound</h1>
         <h2>Seu gerador de links MP3 gratuito online</h2>
     </div>
+    <img src="./assets/wave.png" alt="Logo" id="Logo">
     <div class="center-box">
         <main>
             <h3>Basta selecionar seu arquivo MP3</h3>
             <h3>Esse link ficará disponível por 30 minutos</h3>
         </main>
         <div class="form-box">
-            <form action="/scripts/" id="doc">
-                <label>Selecione o seu documento MP3: <input type="file" name="mp3_sound"></label>
+            <form action="/scripts/CapturaDoc.php" id="doc">
+                <label>Selecione o seu documento MP3: <input id="botao_mp3" type="file" name="mp3_sound"></label>
+                <button value="submit">Gerar link!</button>
             </form>
         </div>
-    </div>
+    </div> 
     <div class="bottom-box">
         <p>Desenvolvido por Claudionei "Play" Macedo</p>
         <a href="https://github.com/PlayZera"><img id="github_logo" src="/assets/github.png">Meu GitHub</a>
