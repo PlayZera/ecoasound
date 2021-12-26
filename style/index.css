@@ -14,7 +14,7 @@ body
     background-color: #D0D0D0;
     color: #005C5E;
 
-    background-image: url(/assets/wave_bg.png);
+    background-image: url('/assets/wave_bg.png');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -78,10 +78,4 @@ body
     width: 4rem;
 
     margin-left: 8rem;
-}
-
-audio
-{
-    margin-left: 5rem;
-    margin-top: 10rem;
 }

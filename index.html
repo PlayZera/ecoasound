@@ -24,15 +24,15 @@
             <h3>Esse link ficará disponível por 30 minutos</h3>
         </main>
         <div class="form-box">
-            <form action="/scripts/CapturaDoc.php" id="doc">
+            <form action="./scripts/CapturaDoc.php" id="doc" method="POST" enctype="multipart/form-data">
                 <label>Selecione o seu documento MP3: <input id="botao_mp3" type="file" name="mp3_sound"></label>
-                <button value="submit">Gerar link!</button>
+                <input type="submit" value="Enviar"/>
             </form>
         </div>
     </div> 
     <div class="bottom-box">
         <p>Desenvolvido por Claudionei "Play" Macedo</p>
-        <a href="https://github.com/PlayZera"><img id="github_logo" src="/assets/github.png">Meu GitHub</a>
+        <a href="https://github.com/PlayZera"><img id="github_logo" src="./assets/github.png">Meu GitHub</a>
     </div>
 </body>
 </html>
