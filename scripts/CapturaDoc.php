@@ -11,9 +11,12 @@ $nomeDoDoc =  $audio["name"];
 //verifica se o arquivo foi enviado com sucesso
 if (move_uploaded_file($audio["tmp_name"], "$dir/".$audio["name"])) 
 { 
-    echo "Arquivo enviado com sucesso!"; 
+    echo "Arquivo enviado com sucesso!";
+    header('Location: ../player.html');
 } 
 else { 
     echo "Erro, o arquivo n&atilde;o pode ser enviado."; 
 }
+
+
 ?>
